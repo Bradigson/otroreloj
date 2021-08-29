@@ -1,0 +1,39 @@
+body{
+   
+    background:url(../imgs/dtf4_6w1e_180508.jpg);
+    background-size:cover;
+    background-position:bottom;
+
+    
+}
+section{
+    display:flex;
+    justify-content:center;
+    position:relative;
+   
+    height:755px;
+}
+.clockdate{
+    position:relative;
+    margin-left:-140px;
+    width:350px;
+    height:320px;
+    font-size:90px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#262626;
+    margin-top:25;
+   text-shadow:3px 6px 3px rgba(0,0,0,.4);
+    animation:spacing 5s infinite alternate linear;
+  
+}
+@keyframes spacing{
+    0%{
+     
+        letter-spacing: 15px;
+
+    }
+}
+
+
